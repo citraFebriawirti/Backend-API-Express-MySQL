@@ -1,12 +1,27 @@
 {
-  "name": "fullstack",
+  "name": "backend-api-express-mysql",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citraFebriawirti/Backend-API-Express-MySQL.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/citraFebriawirti/Backend-API-Express-MySQL/issues"
+  },
+  "homepage": "https://github.com/citraFebriawirti/Backend-API-Express-MySQL#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  }
 }
