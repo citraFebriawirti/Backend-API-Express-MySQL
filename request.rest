@@ -1,1 +1,29 @@
+
 GET http://localhost:8000/users
+
+###
+GET http://localhost:8000/users/1
+
+###
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+    "name":"Citra Febriawirti",
+    "email":"febria@gmail.com",
+    "gender":"perempuan"
+}
+
+###
+PATCH  http://localhost:8000/users/1
+Content-Type: application/json
+
+{
+    "name":"Anisa Febriawirti",
+    "email":"febria@gmail.com",
+    "gender":"perempuan"
+}
+
+###
+DELETE   http://localhost:8000/users/2
+
